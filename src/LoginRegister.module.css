@@ -1,0 +1,143 @@
+.loginRegister {
+  overflow: hidden;
+  padding: 10px 50px;
+}
+
+@media (max-width: 991px) {
+  .loginRegister {
+    padding: 20px;
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: rgba(233, 220, 249, 0.3);
+}
+
+@media (max-width: 991px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+}
+
+.imageColumn {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  width: 54%;
+  max-height: 450px;
+  margin: 0;
+}
+
+@media (max-width: 991px) {
+  .imageColumn {
+    width: 100%;
+  }
+}
+
+.heroImage {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.formColumn {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  width: 36%;
+  margin-left: 20px;
+}
+
+@media (max-width: 991px) {
+  .formColumn {
+    width: 100%;
+  }
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  .formContainer {
+    margin-top: 20px;
+    max-width: 100%;
+  }
+}
+
+.welcomeText {
+  color: #000;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.tabContainer {
+  background-color: rgb(248, 237, 221);
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 50px;
+  max-width: 380px;
+  padding: 10px;
+  border-radius: 33px;
+}
+.activeAuthOption,.inactiveAuthOption{
+  flex: 1;
+  text-align: center;
+  cursor: pointer;
+  padding: 10px 0;
+}
+
+.inputLabel {
+  color: #000;
+  margin-top: 20px;
+  align-self: flex-start;
+}
+
+.inputField {
+  width: 100%;
+  padding: 15px 20px; 
+  border-radius: 40px;
+  border: 1px solid #9e896a;
+  margin-top: 10px;
+  box-sizing: border-box; 
+}
+
+.registerButton {
+    border-radius: 36px;
+    background-color: #523d1c;
+    align-self: end;
+    float: right;
+    margin-top: 55px;
+    width: 232px;
+    max-width: 100%;
+    color: #ffffff;
+    white-space: nowrap;
+    padding: 13px 70px;
+}
+.activeAuthOption {
+  background-color: #523d1c;
+  color: #ffffff;
+  border: 2px solid #7a6e54;
+  border-radius: 33px;
+  padding: 10px;
+}
+
+.inactiveAuthOption {
+  background-color: rgb(248, 237, 221);
+  color: #000000;
+  border: 2px solid transparent;
+  border-radius: 33px;
+  padding: 10px;
+  transition: background-color 0.3s, transform 0.3s;
+}
