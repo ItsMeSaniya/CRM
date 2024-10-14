@@ -4,7 +4,7 @@ import LoginPage from "./LoginPage";
 import LoginRegister from "./LoginRegister";
 
 function App() {
-  const [currentPage, setCurrentPage] = useState("login"); // Default to login page
+  const [currentPage, setCurrentPage] = useState("login"); 
 
   return (
     <Router>
