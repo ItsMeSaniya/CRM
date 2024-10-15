@@ -7,7 +7,7 @@ function App() {
   const [currentPage, setCurrentPage] = useState("login");
 
   return (
-    <Router basename="/react-deploy/">
+    <Router basename="/depoly/">
       <Routes>
         <Route path="/login" element={<LoginPage />} />
         <Route path="/register" element={<LoginRegister />} />
