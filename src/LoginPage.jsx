@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, useLocation } from "react-router-dom"; // Import useLocation
+import { Link, useLocation } from "react-router-dom";
 import styles from "./LoginPage.module.css";
 
 function LoginPage() {
